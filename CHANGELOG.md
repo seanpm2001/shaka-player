@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.8.0](https://github.com/shaka-project/shaka-player/compare/v4.7.0...v4.8.0) (2023-12-05)
+
+
+### Features
+
+* Rename aes128Key to aesKey to allow aes256 in the future ([#5990](https://github.com/shaka-project/shaka-player/issues/5990)) ([31c06ca](https://github.com/shaka-project/shaka-player/commit/31c06ca1891512ed4280a34c6a1f17df76bbfe1e))
+
+
+### Bug Fixes
+
+* Fix liveLatency in stats ([#5982](https://github.com/shaka-project/shaka-player/issues/5982)) ([00c918f](https://github.com/shaka-project/shaka-player/commit/00c918f2cce8bef5646487465adce47a4be2fb9a))
+* Fix transmuxer when some PES has the same pts and dts value ([#5985](https://github.com/shaka-project/shaka-player/issues/5985)) ([165feac](https://github.com/shaka-project/shaka-player/commit/165feacb00b960aa3929b8980554155e86784af1))
+* **HLS:** Fix variant synchronization in HLS after selectVariantTrack ([#5984](https://github.com/shaka-project/shaka-player/issues/5984)) ([8da033f](https://github.com/shaka-project/shaka-player/commit/8da033f7c90cc38bdc06500c8f22c5b5f3823584))
+* Provide a fallback to GET request when HEAD request fails ([#5986](https://github.com/shaka-project/shaka-player/issues/5986)) ([1af93e6](https://github.com/shaka-project/shaka-player/commit/1af93e63ffa6d1e585524e66d05072579a3cd299))
+* **UI:** Fix disable PiP when using documentPictureInPicture ([#5992](https://github.com/shaka-project/shaka-player/issues/5992)) ([6229284](https://github.com/shaka-project/shaka-player/commit/622928470f5ccf3ada5e61611fd9b54a712585f0))
+* **UI:** Fix keyboard navigation of volume bar on Firefox ([#5981](https://github.com/shaka-project/shaka-player/issues/5981)) ([90f1d61](https://github.com/shaka-project/shaka-player/commit/90f1d61fe0a980a2592706162de97556f25f5e17))
+
 ## [4.7.0](https://github.com/shaka-project/shaka-player/compare/v4.6.0...v4.7.0) (2023-12-04)
 
 
